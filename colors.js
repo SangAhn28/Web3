@@ -4,7 +4,6 @@ function LinksSetColor(color){
         while(i < alist.length){
           alist[i].style.color = color;
           i = i + 1;
-
         }
       }
       function BodySetColor(color){
