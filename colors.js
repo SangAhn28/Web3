@@ -1,19 +1,19 @@
 function LinksSetColor(color){
-        //var alist = document.querySelectorAll('a');
-        //var i = 0;
-        //while(i < alist.length){
-        //  alist[i].style.color = color;
-        //  i = i + 1;
-        $('a').css('color', color);
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while(i < alist.length){
+          alist[i].style.color = color;
+          i = i + 1;
+
         }
       }
       function BodySetColor(color){
-        //document.querySelector('body').style.color = color;
-        $('body').css('color', color);
+        document.querySelector('body').style.color = color;
+
       }
       function BodySetBackgroundColor(color){
-        //document.querySelector('body').style.backgroundColor = color;
-        $('body').css('backgroundColor', color);
+        document.querySelector('body').style.backgroundColor = color;
+
       }
       function nightDayHandler(self){
         var target = document.querySelector('body');
